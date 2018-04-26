@@ -32,8 +32,18 @@ function removeFromCart(item) {
   }
     return cart;
 }
+else
+ return function removeFromCart(item) {
+  if (item == cart[i].itemName);  
+  for (var i = 0; i < cart.length; i++) {
+    cart.splice(cart[i].itemName,1);
+  }
+    return cart;
+}
   else
 return `That item is not in your cart.`;
+}
+}
 }
 }
 
