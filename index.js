@@ -24,12 +24,13 @@ function total() {
   return sum;
 }
 
+
 function removeFromCart(item) {
   if (item == cart[i].itemName);  
   for (var i = 0; i < cart.length; i++) {
     cart.splice(cart[i].itemName,1);
   }
-return cart;
+    return cart;
 }
   else
 return `That item is not in your cart.`;
