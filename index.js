@@ -30,6 +30,9 @@ function removeFromCart(item) {
     cart.splice(cart[i].itemName,1);
 }
 return cart;
+{ else
+  
+}
 }
 
 function placeOrder(cardNumber) {
